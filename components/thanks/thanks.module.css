@@ -1,0 +1,17 @@
+.imgWrapper {
+  width: 162px;
+  height: 108px;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.result {
+  padding: 0.25rem 1.25rem;
+  background-color: var(--dark-blue);
+  color: var(--orange);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.40625rem;
+  margin-bottom: 2rem;
+}

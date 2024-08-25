@@ -1,0 +1,97 @@
+.star {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: var(--dark-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.starWrapper {
+  width: 13.96px;
+  height: 13.33px;
+  position: relative;
+}
+
+.btn {
+  padding: 0.875rem;
+  width: 100%;
+  background-color: #fc7614;
+  border-radius: 1.40625rem;
+  border: none;
+  font-size: 0.875rem;
+  color: var(--very-dark-blue);
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-weight: bold;
+  font-size: 0.875rem;
+  letter-spacing: 1.87px;
+}
+
+.btn:hover {
+  background-color: var(--white);
+}
+
+.btn:disabled {
+  cursor: not-allowed;
+  background-color: var(--dark-blue);
+  color: var(--light-grey);
+}
+
+.rates {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 1.5rem 0;
+}
+
+.rate {
+  width: 2.625rem;
+  height: 2.625rem;
+  border-radius: 50%;
+  background-color: var(--dark-blue);
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: var(--light-grey);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.rate:hover {
+  background-color: var(--orange);
+  color: var(--dark-blue);
+}
+
+.rate input {
+  display: none;
+}
+
+.rate.active {
+  background-color: var(--white);
+  color: var(--dark-blue);
+}
+
+@media screen and (min-width: 376px) {
+  .rate {
+    width: 3.1875rem;
+    height: 3.1875rem;
+  }
+
+  .starWrapper {
+    width: 16.75px;
+    height: 16px;
+  }
+
+  .btn {
+    font-size: 1rem;
+    letter-spacing: 2px;
+  }
+}
